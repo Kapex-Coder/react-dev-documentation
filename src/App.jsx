@@ -1,11 +1,13 @@
-import './App.css'
+import "./App.css";
+import ScientistsList from "./components/ScientistsList";
 
 function App() {
   return (
     <>
-      <div>This is my app.</div>
+      <div>Rendering lists</div>
+      <ScientistsList />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
